@@ -1,0 +1,16 @@
+{
+  "Data": [
+    {
+      "id": "fa59",
+      "company": "flower",
+      "price": "14254",
+      "image": "/photo/image4.avif"
+    },
+    {
+      "id": "1a47",
+      "company": "shop",
+      "price": "2515",
+      "image": "/photo/image5.avif"
+    }
+  ]
+}

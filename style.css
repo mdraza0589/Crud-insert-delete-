@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    width: 97vw;
+    height: 100vh;
+    background: rgba(240, 128, 128, 0.735);
+}
+.main {
+    width: 95vw;
+    height: 100%;
+    margin: 20px;
+    box-sizing: border-box;
+
+}
+
+.upper-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    align-items: center;
+    font-weight: 700;
+    /* background-color: lemonchiffon; */
+    border-bottom: none;
+}
+
+.lower-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+form {
+    border: 0.5px solid black;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.box input {
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+.image img {
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+}
+
+.edit {
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: blue;
+    &:hover {
+        border: 1px solid black;
+    }
+}
+.edit-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.edit-confirm{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.edit-image img{
+    width: 80px;
+}
+.remove {
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20%;
+    background: red;
+    &:hover {
+        border: 1px solid black;
+    }
+}
+.first{
+    /* border: 1px solid ; */
+    width: 80px;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .item-box {
+        font-size: 12px;
+        font-weight: 700;
+        box-sizing: border-box;
+    }
+
+    .item-box img {
+        width: 50px;
+    }
+
+    .upper-container {
+        font-size: 12px;
+    }
+}
